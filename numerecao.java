@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class numerecao {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int numero = 0;
+        System.out.println("Digite o número desejado:");
+        numero = sc.nextInt();
+        for (int i = 0; i < numero; i++) {
+            System.out.println("Praticando lógica de programação!");
+
+
+        }
+    }
+
+}
